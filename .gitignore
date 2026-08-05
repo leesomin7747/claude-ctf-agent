@@ -1,0 +1,5 @@
+.superpowers/
+board/scope.md
+board/challenges.md
+board/writeups/*
+!board/writeups/.gitkeep
