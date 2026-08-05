@@ -19,7 +19,7 @@ pwntools, ropper
 cyclic 200
 ropper --file bin
 ```
-`cyclic 200`으로 오프셋, `ropper --file bin`으로 가젯 수집
+`cyclic 200`으로 오프셋, `ropper --file bin`
 
 ## Pitfalls
 ASLR 시 libc 누출 필요; 정렬 이슈
