@@ -24,7 +24,7 @@ model: opus
 {
   "challenge": "string",
   "category": "rev",
-  "status": "solved|stuck|needs-scope",
+  "status": "solved|stuck|needs-scope|needs-user",
   "flag": "string or null",
   "techniques": ["string"],
   "evidence": [{"type": "[OBS]|[HYP]|[POC]|[FLAG]", "content": "string"}],

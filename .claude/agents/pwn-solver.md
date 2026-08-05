@@ -24,7 +24,7 @@ checksec로 보호기법 확인 → 오버플로/포맷스트링/힙 순으로 �
 {
   "challenge": "string",
   "category": "pwn",
-  "status": "solved|stuck|needs-scope",
+  "status": "solved|stuck|needs-scope|needs-user",
   "flag": "string or null",
   "techniques": ["string"],
   "evidence": [{"type": "[OBS]|[HYP]|[POC]|[FLAG]", "content": "string"}],

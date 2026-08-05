@@ -42,7 +42,15 @@ file-upload-rce, xxe, deserialization, ssti, idor-authbypass, path-traversal, ra
 연속 3회 실패 시 그 사실을 반환에 담아 오케스트레이터의 critic 재분류를 유도.
 
 ## Return
-아래 스키마로만 반환(YAML 블록):
-challenge, category(=web), status(solved|stuck|needs-scope|needs-user),
-flag(문자열|null), techniques(사용 스킬 목록), evidence(증거타입 로그 요약 배열),
-next_steps(stuck시), writeup_path.
+```json
+{
+  "challenge": "string",
+  "category": "web",
+  "status": "solved|stuck|needs-scope|needs-user",
+  "flag": "string or null",
+  "techniques": ["string"],
+  "evidence": [{"type": "[OBS]|[HYP]|[POC]|[FLAG]", "content": "string"}],
+  "next_steps": ["string"],
+  "writeup_path": "string or null"
+}
+```
