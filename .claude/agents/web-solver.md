@@ -30,10 +30,11 @@ XML 파싱 → XXE(`xxe`).
 경로/파일명 입력 → 경로 순회(`path-traversal`).
 동시성/상태경쟁 단서 → `race-condition`.
 GraphQL 엔드포인트 → `graphql`.
+서버가 입력으로 셸 명령 실행(grep·ping·검색 등) → 커맨드 인젝션(`command-injection`).
 
 ## Skills
 `.claude/skills/web/` 아래 스킬을 신호에 맞춰 로드: recon-web, sqli, xss, ssrf, jwt,
-file-upload-rce, xxe, deserialization, ssti, idor-authbypass, path-traversal, race-condition, graphql.
+file-upload-rce, xxe, deserialization, ssti, idor-authbypass, path-traversal, race-condition, graphql, command-injection.
 각 스킬의 `## When`으로 적용 여부 판단, `## Procedure`/`## PoC`로 실행, `## Pitfalls`로 우회.
 
 ## Protocol
