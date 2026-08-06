@@ -16,8 +16,8 @@ description: CTF 풀이에 필요한 CLI 툴 설치 여부를 점검하고 누�
    - ★`ffuf` 디렉토리/파라미터 퍼징 (`brew install ffuf`), `gobuster`/`feroxbuster` 대체
    - ★`sqlmap` SQLi (`brew install sqlmap` 또는 `pipx install sqlmap`)
    - ★`nuclei` 템플릿 스캐너 (`brew install nuclei`)
-   - `dalfox` XSS (`brew install dalfox`), `commix` 커맨드 인젝션 (`pipx install commix`)
-   - `jwt_tool` JWT 공격 (`pipx install jwt-tool`), `arjun` 숨은 파라미터 (`pipx install arjun`)
+   - `dalfox` XSS (`brew install dalfox`), `commix` 커맨드 인젝션 (`git clone https://github.com/commixproject/commix`)
+   - `jwt_tool` JWT 공격 (`git clone https://github.com/ticarpi/jwt_tool && pip install --user termcolor cprint pycryptodome requests`), `arjun` 숨은 파라미터 (`pipx install arjun`)
    - `httpx` 프로빙 (`brew install httpx`), `gau`/`waybackurls` URL 수집, `hakrawler` 크롤
    - `wpscan` 워드프레스 (`brew install wpscan`), `nikto` 서버 스캔 (`brew install nikto`)
 
