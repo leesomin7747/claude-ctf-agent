@@ -1,6 +1,6 @@
 # ctf-agent
 
-CTF/워게임 자동 풀이 Claude Code 에이전트. 웹 해킹 최대 비중, 풀 카테고리, 대회 실시간 병렬 풀이.
+CTF/워게임 자동 풀이 Claude Code 에이전트.
 
 ## 빠른 시작
 
