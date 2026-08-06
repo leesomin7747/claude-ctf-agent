@@ -1,0 +1,19 @@
+{
+  "_comment": "복사용 예시. 실제로는 .claude/settings.local.json(개인) 또는 user 설정에 넣고 allowedDomains를 대회/랩 타겟으로 바꾼다. docs/sandbox.md 참고. strictAllowlist/tlsTerminate 등 일부 키는 user/managed/CLI 설정에서만 적용되니 강한 격리는 `claude --settings <이파일>`로 띄운다.",
+  "permissions": {
+    "defaultMode": "acceptEdits"
+  },
+  "sandbox": {
+    "enabled": true,
+    "autoAllowBashIfSandboxed": true,
+    "network": {
+      "allowedDomains": [
+        "*.ctf.example",
+        "chal.example.ctf",
+        "localhost",
+        "127.0.0.1"
+      ],
+      "strictAllowlist": true
+    }
+  }
+}

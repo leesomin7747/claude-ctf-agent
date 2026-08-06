@@ -52,6 +52,10 @@ n=0x1337..., e=3, c=...       (crypto 지문)
 - `.claude/agents/` — 카테고리별 solver(web/pwn/rev/crypto/forensic/misc)
 - `.claude/skills/` — 기법 라이브러리(web 14, 기타 18, meta 4)
 - `board/` — 런타임 상태(scope/challenges/writeups)
+- `docs/sandbox.md` — 샌드박스·격리 실습 환경에서 안전하게 쓰는 법(네트워크 allowlist, nmap/trivy/metasploit 등)
+
+## 도구
+`/ctf-setup`(→ `tool-check` 스킬)이 카테고리별 도구를 점검·설치한다. 웹(ffuf·sqlmap·nuclei·dalfox·commix·jwt_tool·arjun…), pwn(gdb+pwndbg·checksec·ropper·pwntools…), rev(radare2·binwalk…), crypto(pycryptodome·sympy·hashcat…), forensic(tshark·volatility3·steghide…), 네트워크/인프라(nmap·nuclei·trivy·metasploit). darwin은 brew/pipx/pip 기준. 능동 스캐너·익스는 스코프 안에서만(→ `docs/sandbox.md`).
 
 ## 대회 시작 절차
 1. `board/scope.md`의 In-Scope에 인가 타겟, Flag-Format에 대회 플래그 정규식 설정.
